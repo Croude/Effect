@@ -1,0 +1,7 @@
+main: at.chroonus.effect.Main
+name: Effect
+author: Chroonus
+version: 1.0
+
+commands:
+  effects:
