@@ -20,7 +20,7 @@ public class PlayerMove implements Listener {
         Player player = event.getPlayer();
         for (Player players : Bukkit.getOnlinePlayers()) {
             if (effect != null && !Main.getInstance().getHideParticles().contains(players.getName())) {
-                effect.sendMoveParticleToPlayer(player);
+                effect.sendMoveParticleToPlayer(players);
             }
         }
     }
